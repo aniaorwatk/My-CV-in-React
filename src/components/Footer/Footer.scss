@@ -1,1 +1,16 @@
-@import "../../scss/Main";
+@import "../scss/Main";
+
+.footer {
+  padding: 1rem;
+  background-color: $color-down;
+
+  &__text {
+    padding-left: 0.8rem;
+    font-style: italic;
+    font-size: $font-size-XS;
+    font-weight: bold;
+    text-align: justify;
+    color: $color-text-green;
+    border-left: 3px solid $color-yellow;
+  }
+}
