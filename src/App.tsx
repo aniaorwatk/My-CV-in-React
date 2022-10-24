@@ -1,12 +1,11 @@
 import React from 'react';
-// import Footer from './components/Footer/Footer';
+import CVPage from './components/CvPage/CvPage';
+
 
 
 const App =()=> {
   return (
-    <div>
-      {/* <Footer/> */}
-    </div>
+  <CVPage />
   );
 }
 

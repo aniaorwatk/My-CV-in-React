@@ -1,0 +1,18 @@
+@import "../scss/Main";
+
+.CvPage{
+    min-height: 100vh;
+
+}
+
+
+
+@media only screen and (min-width: $breakpointL) {
+    .CvPage {
+        width: 1026px; 
+      }
+  
+
+      
+    }
+  
