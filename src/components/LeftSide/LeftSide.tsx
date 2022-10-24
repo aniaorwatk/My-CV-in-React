@@ -1,12 +1,45 @@
 import React from "react";
-import "./LeftSide.scss"
+import labels from "../../labels";
+import imgAOK from "./../../assets/photo.jpg";
+import LeftSideRenderData from "./LeftSideRenderData";
+import {
+  skills,
+  softSkills,
+  hobbys,
+  iconSkills,
+  iconSoftSkills,
+  iconHobbys,
+} from "./LeftSideHandler";
+import dataSkills from "./../../data/dataLeftSide/dataSkills";
+import dataSoftSkills from "../../data/dataLeftSide/dataSoftSkliis";
+import dataHobbys from "../../data/dataLeftSide/dataHobbys";
+import "./LeftSide.scss";
 
-const LeftSide =()=>{
-    return(
-        <div>
+const LeftSide = () => {
+  return (
+    <div className="leftSide">
+      <img
+        className="leftSide__img"
+        src={imgAOK}
+        alt={labels.leftSide.altMyImg}
+      />
+      <LeftSideRenderData
+        icon={iconSkills}
+        title={dataSkills.title}
+        list={skills}
+      />
+      <LeftSideRenderData
+        icon={iconSoftSkills}
+        title={dataSoftSkills.title}
+        list={softSkills}
+      />
+      <LeftSideRenderData
+        icon={iconHobbys}
+        title={dataHobbys.title}
+        list={hobbys}
+      />
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default LeftSide
+export default LeftSide;
