@@ -9,6 +9,7 @@ const CVPage =()=>{
             <div className='CvPage__main'>
                 <LeftSide />
             </div>
+
     <Footer/>
   </div> 
     )

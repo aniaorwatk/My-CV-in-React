@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const labels = {
@@ -17,3 +18,4 @@ const labels = {
 };
 
 export default labels;
+
