@@ -1,4 +1,4 @@
-import React, { DetailedHTMLProps, HTMLAttributes } from "react";
+import React from "react";
 import "./LeftSideRenderData.scss"
 
 interface ILeftSideRenderDataType {

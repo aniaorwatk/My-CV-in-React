@@ -1,6 +1,11 @@
 import React from "react";
 
 const labels = {
+  header: {
+    firstName: "ANNA",
+    secondName: "Orwat-Kaczmarska",
+    title: "CURRICULUM VITAE",
+  },
   leftSide: {
     altMyImg: "Pgoto Anna Orwat-Kaczmarska",
     contact: {
