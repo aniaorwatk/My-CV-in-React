@@ -14,6 +14,8 @@ import dataSkills from "./../../data/dataLeftSide/dataSkills";
 import dataSoftSkills from "../../data/dataLeftSide/dataSoftSkliis";
 import dataHobbys from "../../data/dataLeftSide/dataHobbys";
 import "./LeftSide.scss";
+import LeftSideContact from "./LeftSideContact/LeftSideContact";
+import LeftSideGitHub from "./LeftSideGitHub/LeftSideGitHub";
 
 const LeftSide = () => {
   return (
@@ -23,6 +25,12 @@ const LeftSide = () => {
         src={imgAOK}
         alt={labels.leftSide.altMyImg}
       />
+
+
+      <LeftSideGitHub />
+
+      <LeftSideContact />
+
       <LeftSideRenderData
         icon={iconSkills}
         title={dataSkills.title}
