@@ -14,7 +14,6 @@ const LeftSideRenderData = ({ title, list, icon }: ILeftSideRenderDataType) => {
         <img className="renderData__img" src={icon} />
         {title}
       </h3>
-
       <ul>{list}</ul>
     </section>
   );
