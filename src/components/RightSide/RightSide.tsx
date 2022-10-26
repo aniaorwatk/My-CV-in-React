@@ -2,7 +2,8 @@ import React from "react";
 import "./RightSide.scss"
 import RightSideCourse from "./RightSideCourse/RightSideCourse";
 import dataCourse from "./../../data/dataRightSide/dataProgrammingCourses";
-import { renderCourses } from "./RightSideHandler";
+import { renderCourses, renderobs } from "./RightSideHandler";
+import RightSideJob from "./RightSideJob/RightSideJob";
 
 const RightSide =()=>{
     return(
@@ -11,6 +12,8 @@ const RightSide =()=>{
 courseInformation={renderCourses}
 title={dataCourse.title}
 />
+<RightSideJob 
+                job={renderobs} />
 
         </div>
     )

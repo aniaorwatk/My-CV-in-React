@@ -32,11 +32,6 @@ export default {
         certificate: "certyfikat",
       },
       {
-        title_course: "Podstawy programowania",
-        name_platform: "LG Project",
-        certificate: "certyfikat",
-      },
-      {
         title_course: "Learn React",
         name_platform: "Platforma Scrimba",
         certificate: "",
