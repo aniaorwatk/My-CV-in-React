@@ -11,8 +11,25 @@
     margin: 5px 0;
     font-weight: bold;
     color: $color-laguna;
+
+&-img{
+    width: 15px;
+}
   }
   &__responsibilities {
     text-align: justify;
   }
+
+}
+
+.rightSideJobs{
+    &__title{
+        font-size: $font-size-L;
+        margin: 5px 0;
+        color: $color-yellow;
+    }
+}
+
+.iconCalendar{
+    margin: 0 5px 0 15px
 }

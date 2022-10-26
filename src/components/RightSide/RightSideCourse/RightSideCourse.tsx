@@ -1,18 +1,15 @@
 import React from "react";
+import dataCourse from "./../../../data/dataRightSide/dataProgrammingCourses";
 import "./RightSideCourse.scss";
 
 interface IRightSideCourseType {
-  title: string;
   courseInformation: JSX.Element | JSX.Element[];
 }
 
-const RightSideCourse = ({
-  courseInformation,
-  title,
-}: IRightSideCourseType) => {
+const RightSideCourse = ({ courseInformation }: IRightSideCourseType) => {
   return (
     <div className="course">
-      <h3 className="course__title">{title}</h3>
+      <h3 className="course__title">{dataCourse.title}</h3>
       <ul>{courseInformation}</ul>
     </div>
   );
