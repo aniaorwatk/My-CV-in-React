@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import LeftSide from "../LeftSide/LeftSide";
+import RightSide from "../RightSide/RightSide";
 import "./CvPage.scss";
 
 const CVPage = () => {
@@ -10,6 +11,7 @@ const CVPage = () => {
       <Header />
       <div className="CvPage__main">
         <LeftSide />
+        <RightSide />
       </div>
       <Footer />
     </div>
