@@ -1,6 +1,4 @@
 
-import React from "react";
-
 const labels = {
   header: {
     firstName: "ANNA",
