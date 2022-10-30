@@ -1,7 +1,14 @@
 @import "../scss/Main";
 
 .CvPage{
+  display:flex;
+  flex-direction: column;
     min-height: 100vh;
+
+    &__main{
+      display: flex;
+      flex-direction: row;
+    }
 
 }
 
@@ -9,7 +16,7 @@
 
 @media only screen and (min-width: $breakpointL) {
     .CvPage {
-        width: 1026px; 
+        width: 950px; 
       }
   
 

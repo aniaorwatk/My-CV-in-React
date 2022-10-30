@@ -1,5 +1,5 @@
 export default {
-  title: "UKONCZONE KURSY PROGRAMOWANIA",
+  title: "UKOŃCZONE KURSY PROGRAMOWANIA",
   data: [
     {
       title_course: "Podstawy programowania",
@@ -32,19 +32,14 @@ export default {
         certificate: "certyfikat",
       },
       {
-        title_course: "Podstawy programowania",
-        name_platform: "LG Project",
-        certificate: "certyfikat",
-      },
-      {
         title_course: "Learn React",
         name_platform: "Platforma Scrimba",
-        certificate: "certyfikat",
+        certificate: "",
       },
       {
         title_course: "Advanced React",
         name_platform: "Platforma Scrimba",
-        certificate: "certyfikat",
+        certificate: "",
       },
   ],
 };

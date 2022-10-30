@@ -1,0 +1,23 @@
+@import "../../scss/Main";
+
+.nameCourse {
+    text-align: justify;
+  font-weight: bold;
+  line-height: 1.5rem;
+  list-style: none;
+  &__img {
+    width: 20px;
+    padding-right: 2px;
+  }
+  &__title {
+    color: $color-text-purple;
+  }
+}
+
+.course{
+    &__title{
+        font-size: $font-size-L;
+        margin-bottom: 5px;
+        color: $color-yellow;
+    }
+}
