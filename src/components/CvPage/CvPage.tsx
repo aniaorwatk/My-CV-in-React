@@ -5,6 +5,7 @@ import LeftSide from "../LeftSide/LeftSide";
 import RightSide from "../RightSide/RightSide";
 import "./CvPage.scss";
 
+
 const CVPage = () => {
   return (
     <div className="CvPage">
@@ -17,5 +18,6 @@ const CVPage = () => {
     </div>
   );
 };
+
 
 export default CVPage;
