@@ -6,9 +6,6 @@ import {
   skills,
   softSkills,
   hobbys,
-  iconSkills,
-  iconSoftSkills,
-  iconHobbys,
 } from "./LeftSideHandler";
 import dataSkills from "./../../data/dataLeftSide/dataSkills";
 import dataSoftSkills from "../../data/dataLeftSide/dataSoftSkliis";
@@ -25,27 +22,25 @@ const LeftSide = () => {
         src={imgAOK}
         alt={labels.leftSide.altMyImg}
       />
-
+<div className="leftSide__boxInformations">
 
       <LeftSideGitHub />
 
       <LeftSideContact />
 
       <LeftSideRenderData
-        icon={iconSkills}
         title={dataSkills.title}
         list={skills}
       />
       <LeftSideRenderData
-        icon={iconSoftSkills}
         title={dataSoftSkills.title}
         list={softSkills}
       />
       <LeftSideRenderData
-        icon={iconHobbys}
         title={dataHobbys.title}
         list={hobbys}
       />
+    </div>
     </div>
   );
 };

@@ -4,7 +4,14 @@
 .leftSide{
     display: flex;
     flex-direction: column;
-flex: 1 1 1;
+flex: 1;
+background-color: $color-laguna;
+color: $color-text-white;
+
+&__boxInformations{
+    padding: 10px ;
+}
+
 }
 
 

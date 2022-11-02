@@ -1,7 +1,14 @@
 @import "../scss/Main";
 
 .renderData{
+    margin-left: 10px;
     &__img{
         width: 20px;
     }
+}
+
+.leftSide__li{
+    margin-left: 10px;
+    text-align: justify;
+    font-size: $font-size-M;
 }
