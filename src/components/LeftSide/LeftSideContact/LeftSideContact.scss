@@ -1,7 +1,15 @@
 @import "../../scss/Main";
 
 .contact{
-    &__img{
-        width: 15px;
-    }
+display: flex;
+flex-direction: column;
+
+h3{
+   color:$color-yellow;
+   margin: 10px;
+}
+p{
+    margin:0 20px;
+}
+
 }
