@@ -1,4 +1,4 @@
-export default {
+export default{
   title: "UKOŃCZONE KURSY PROGRAMOWANIA",
   data: [
     {
