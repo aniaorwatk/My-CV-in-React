@@ -5,10 +5,14 @@
     &__img{
         width: 20px;
     }
+    &__title{
+        margin: 10px 0;
+        color:$color-yellow;
+    }
 }
 
 .leftSide__li{
-    margin-left: 10px;
+    margin-left: 25px;
     text-align: justify;
-    font-size: $font-size-M;
+    font-size: $font-size-S;
 }

@@ -9,7 +9,7 @@ interface ILeftSideRenderDataType {
 const LeftSideRenderData = ({ title, list}: ILeftSideRenderDataType) => {
   return (
     <section className="renderData">
-      <h3>
+      <h3 className="renderData__title">
         {title}
       </h3>
       <ul>{list}</ul>

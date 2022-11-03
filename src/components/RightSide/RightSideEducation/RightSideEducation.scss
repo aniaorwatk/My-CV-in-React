@@ -1,1 +1,25 @@
 @import "../../scss/Main";
+
+.iconSchool {
+    margin: 0 10px 0 0;
+    width: 25px;
+}
+
+.education {
+    &__title {
+        font-weight: bold;
+        color: $color-yellow;
+        font-size: $font-size-L;
+    }
+
+    &__name {
+        text-decoration: underline $color-yellow;
+        font-weight: bold;
+    }
+
+    &__school {
+        margin: 5px 0;
+        font-weight: bold;
+        color: $color-laguna;
+    }
+}
