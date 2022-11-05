@@ -1,5 +1,3 @@
-import React from "react";
-
 import { gitHub } from "../LeftSideHandler";
 import "./LeftSideGitHub.scss";
 
