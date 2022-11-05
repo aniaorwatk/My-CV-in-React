@@ -1,17 +1,19 @@
 @import "../scss/Main";
 
-.renderData{
+.renderData {
     margin-left: 10px;
-    &__img{
+
+    &__img {
         width: 20px;
     }
-    &__title{
+
+    &__title {
         margin: 10px 0;
-        color:$color-yellow;
+        color: $color-yellow;
     }
 }
 
-.leftSide__li{
+.leftSide__li {
     margin-left: 25px;
     text-align: justify;
     font-size: $font-size-S;

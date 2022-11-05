@@ -1,5 +1,4 @@
-import React from "react";
-import dataCourse from "./../../../data/dataRightSide/dataProgrammingCourses";
+import dataCourse from "../../../data/dataRightSide/dataProgrammingCourses";
 import "./RightSideCourse.scss";
 
 interface IRightSideCourseType {

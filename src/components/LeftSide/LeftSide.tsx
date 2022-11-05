@@ -1,18 +1,17 @@
-import React from "react";
-import labels from "../../labels";
-import imgAOK from "./../../assets/photo.jpg";
+import LeftSideContact from "./LeftSideContact/LeftSideContact";
+import LeftSideGitHub from "./LeftSideGitHub/LeftSideGitHub";
 import LeftSideRenderData from "./LeftSideRenderData";
 import {
   skills,
   softSkills,
   hobbys,
 } from "./LeftSideHandler";
-import dataSkills from "./../../data/dataLeftSide/dataSkills";
+import labels from "../../labels";
+import dataSkills from "../../data/dataLeftSide/dataSkills";
 import dataSoftSkills from "../../data/dataLeftSide/dataSoftSkliis";
 import dataHobbys from "../../data/dataLeftSide/dataHobbys";
+import imgAOK from "./../../assets/photo.jpg";
 import "./LeftSide.scss";
-import LeftSideContact from "./LeftSideContact/LeftSideContact";
-import LeftSideGitHub from "./LeftSideGitHub/LeftSideGitHub";
 
 const LeftSide = () => {
   return (
@@ -22,25 +21,22 @@ const LeftSide = () => {
         src={imgAOK}
         alt={labels.leftSide.altMyImg}
       />
-<div className="leftSide__boxInformations">
-
-      <LeftSideGitHub />
-
-      <LeftSideContact />
-
-      <LeftSideRenderData
-        title={dataSkills.title}
-        list={skills}
-      />
-      <LeftSideRenderData
-        title={dataSoftSkills.title}
-        list={softSkills}
-      />
-      <LeftSideRenderData
-        title={dataHobbys.title}
-        list={hobbys}
-      />
-    </div>
+      <div className="leftSide__boxInformations">
+        <LeftSideGitHub />
+        <LeftSideContact />
+        <LeftSideRenderData
+          title={dataSkills.title}
+          list={skills}
+        />
+        <LeftSideRenderData
+          title={dataSoftSkills.title}
+          list={softSkills}
+        />
+        <LeftSideRenderData
+          title={dataHobbys.title}
+          list={hobbys}
+        />
+      </div>
     </div>
   );
 };

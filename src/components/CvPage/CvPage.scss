@@ -1,33 +1,26 @@
 @import "../scss/Main";
 
-.CvPage{
-  display:flex;
+.CvPage {
+  display: flex;
   flex-direction: column;
-    min-height: 100vh;
+  min-height: 100vh;
 
-    &__main{
-      display: flex;
-      flex-direction: column;
-    }
-
+  &__main {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-    @media only screen and (min-width: $breakpointM) {
-      .CvPage{
-        &__main{
-        flex-direction: row;
-      }
+@media only screen and (min-width: $breakpointM) {
+  .CvPage {
+    &__main {
+      flex-direction: row;
     }
   }
-
+}
 
 @media only screen and (min-width: $breakpointL) {
-    .CvPage {
-        width: 950px; 
-      }
-  
-
-      
-    }
-
-
+  .CvPage {
+    width: 950px;
+  }
+}

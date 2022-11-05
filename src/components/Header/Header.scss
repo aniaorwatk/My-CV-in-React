@@ -7,6 +7,7 @@
   flex-direction: column-reverse;
   padding: 5px;
   color: $color-laguna;
+
   &__left {
     display: flex;
     flex: 1 1 0.5%;
@@ -18,21 +19,19 @@
   &__right {
     display: flex;
     flex: 1 1 0.5%;
-    margin-left: 10px;
-    align-items: center;
- 
+    margin-left: 0;
+    justify-content: center;
+    border-left: none;
+    border-bottom: 5px solid $color-laguna;
+    width: 100%;
 
     &-title {
-      width: 100%;
-      padding-left: 5px;
+      align-self: center;
+      padding: 0 5px;
       font-size: $font-size-XL;
-      border-left: none;
-      border-bottom: 5px solid $color-laguna;
-
     }
   }
 }
-
 
 @media only screen and (min-width: $breakpointM) {
   .header {
@@ -45,14 +44,14 @@
 
     &__right {
       align-items: flex-start;
+      border-left: 5px solid $color-laguna;
+      border-bottom: none;
+      margin-left: 10px;
 
       &-title {
         font-size: $font-size-h1SmallHeader;
-        border-left: 5px solid $color-laguna;
-        border-bottom: none;
         align-self: flex-start;
       }
     }
   }
 }
-

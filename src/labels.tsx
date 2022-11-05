@@ -1,4 +1,3 @@
-
 const labels = {
   header: {
     firstName: "ANNA",

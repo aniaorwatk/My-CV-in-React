@@ -1,4 +1,3 @@
-import React from "react";
 import "./LeftSideRenderData.scss"
 
 interface ILeftSideRenderDataType {
@@ -6,7 +5,7 @@ interface ILeftSideRenderDataType {
   list: JSX.Element | JSX.Element[];
 }
 
-const LeftSideRenderData = ({ title, list}: ILeftSideRenderDataType) => {
+const LeftSideRenderData = ({ title, list }: ILeftSideRenderDataType) => {
   return (
     <section className="renderData">
       <h3 className="renderData__title">

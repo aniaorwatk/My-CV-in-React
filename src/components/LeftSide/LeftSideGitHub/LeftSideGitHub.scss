@@ -1,9 +1,11 @@
 @import "../../scss/Main";
 
+.gitHub {
+    align-self: center;
+    display: flex;
+    justify-content: center;
 
-.gitHub{
-align-self: center;
+    a {
+        color: $color-down;
+    }
 }
-
-
-

@@ -1,9 +1,8 @@
-
-import "./RightSide.scss";
 import RightSideCourse from "./RightSideCourse/RightSideCourse";
-import { renderCourses, renderobs } from "./RightSideHandler";
 import RightSideJob from "./RightSideJob/RightSideJob";
 import RightSideEducation from "./RightSideEducation/RightSideEducation";
+import { renderCourses, renderobs } from "./RightSideHandler";
+import "./RightSide.scss";
 
 const RightSide = () => {
   return (

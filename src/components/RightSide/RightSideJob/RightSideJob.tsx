@@ -1,9 +1,7 @@
-import React from "react";
+import dataJobs from "../../../data/dataRightSide/dataExperience";
 import "./RightSideJob.scss";
-import dataJobs from "./../../../data/dataRightSide/dataExperience";
 
 interface IRightSideJobType {
-  // title:string,
   job: JSX.Element | JSX.Element[];
 }
 
